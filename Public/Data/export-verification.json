@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "sourceSha256": "ad4fe266e3c240667cce263d63aad974f5d9cb6f6659b6c4f52c72362b6b7f5c",
+  "meshToleranceMm": 0.02,
+  "parts": [
+    {
+      "id": "tray",
+      "triangles": 1236,
+      "nodes": 1314,
+      "bounds_mm": [
+        -81.25,
+        81.25,
+        0.0,
+        203.0,
+        -44.5,
+        0.0
+      ],
+      "volume_mm3": 190615.22312620832
+    },
+    {
+      "id": "bin",
+      "triangles": 652,
+      "nodes": 712,
+      "bounds_mm": [
+        -73.105421686747,
+        12.894578313253007,
+        91.49999999999999,
+        202.5,
+        -105.0,
+        2.5
+      ],
+      "volume_mm3": 108378.63081532049
+    }
+  ],
+  "glbSha256": "52d36929a79acf37137632c60089b7b237e019b25735837f3a9740afc2d7abc6",
+  "inspection": {
+    "bodies": [
+      {
+        "component": "01 - Carrier With L-Shaped Tray And Open Passenger Side",
+        "bounds_mm": [
+          -81.25,
+          81.25,
+          0.0,
+          203.0,
+          -44.5,
+          0.0
+        ],
+        "volume_mm3": 190615.22312620832,
+        "connected_solid": true
+      },
+      {
+        "component": "02 - Removable Rear Passenger Trash Bin",
+        "bounds_mm": [
+          -73.105421686747,
+          12.894578313253007,
+          91.49999999999999,
+          202.5,
+          -105.0,
+          2.5
+        ],
+        "volume_mm3": 108378.63081532049,
+        "connected_solid": true
+      }
+    ],
+    "bin_floor_planes_mm": [
+      -42.099999999999994,
+      -102.0,
+      -44.49999999999999,
+      0.0,
+      2.5,
+      -105.0
+    ],
+    "rear_profile": {
+      "slope_planes": {
+        "inner": {
+          "angle_from_vertical_degrees": 18.0,
+          "start_depth_mm": 42.1,
+          "start_y_mm": 194.75629793278713,
+          "end_depth_mm": 102.0,
+          "end_y_mm": 175.29360812843603,
+          "y_at_common_depth_mm": 185.02495303061158
+        },
+        "outer": {
+          "angle_from_vertical_degrees": 18.0,
+          "start_depth_mm": 44.5,
+          "start_y_mm": 196.5,
+          "end_depth_mm": 105.0,
+          "end_y_mm": 176.84235837790914,
+          "y_at_common_depth_mm": 187.5484623687834
+        }
+      },
+      "normal_wall_thickness_mm": 2.399999999999966,
+      "outside_step_depth_mm": 44.5,
+      "inside_step_depth_mm": 42.1,
+      "rear_step_mm": 3.0,
+      "total_bottom_setback_mm": 22.657641622090864,
+      "bottom_length_mm": 82.34235837790916,
+      "point_checks_passed": 17
+    },
+    "taper_planes": {
+      "1": {
+        "x_under_rail_mm": 73.24999999999996,
+        "x_at_bottom_mm": 71.24999999999996
+      },
+      "-1": {
+        "x_under_rail_mm": -73.24999999999996,
+        "x_at_bottom_mm": -71.24999999999996
+      }
+    },
+    "minimum_rim_land_mm": 2.5,
+    "bin_clearance_to_shallow_bottom_envelope_mm": 1.1445783132530067,
+    "point_checks_passed": 36,
+    "interference_count": 0
+  }
+}

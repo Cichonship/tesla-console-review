@@ -1,0 +1,131 @@
+{
+  "status": "passed",
+  "version": "1.3.0",
+  "config": {
+    "carrier_width": 162.5,
+    "carrier_body_width": 146.5,
+    "carrier_body_bottom_width": 142.5,
+    "carrier_length": 203.0,
+    "rail_lip_overhang": 8.0,
+    "top_plate_thickness": 3.0,
+    "carrier_corner_radius": 10.0,
+    "body_corner_radius": 3.0,
+    "tray_depth": 44.5,
+    "tray_wall": 3.0,
+    "tray_bottom": 3.0,
+    "tray_inner_radius": 7.0,
+    "bin_width": 80.0,
+    "bin_length": 105.0,
+    "bin_depth": 105.0,
+    "bin_rear_setback": 3.0,
+    "bin_rear_angle_degrees": 18.0,
+    "bin_min_side_clearance": 0.5,
+    "passenger_rim_depth": 6.0,
+    "minimum_rim_land": 2.5,
+    "receiver_rear_wall": 3.0,
+    "bin_wall": 2.4,
+    "bin_bottom": 3.0,
+    "bin_corner_radius": 8.0,
+    "bin_fit_clearance": 1.0,
+    "bin_flange_overhang": 3.0,
+    "bin_flange_height": 2.5,
+    "console_opening_width": 157.0,
+    "clear_width_between_ledges": 143.5,
+    "available_width_at_bin_depth": 130.0,
+    "depth_at_front": 122.0,
+    "depth_at_rear": 155.0,
+    "covered_front_length": 38.0,
+    "forward_slide_travel": 77.0,
+    "desired_floor_clearance": 55.0
+  },
+  "script_sha256": "ad4fe266e3c240667cce263d63aad974f5d9cb6f6659b6c4f52c72362b6b7f5c",
+  "inspection": {
+    "bodies": [
+      {
+        "component": "01 - Carrier With L-Shaped Tray And Open Passenger Side",
+        "bounds_mm": [
+          -81.25,
+          81.25,
+          0.0,
+          203.0,
+          -44.5,
+          0.0
+        ],
+        "volume_mm3": 190615.22312620832,
+        "connected_solid": true
+      },
+      {
+        "component": "02 - Removable Rear Passenger Trash Bin",
+        "bounds_mm": [
+          -73.105421686747,
+          12.894578313253007,
+          91.49999999999999,
+          202.5,
+          -105.0,
+          2.5
+        ],
+        "volume_mm3": 108378.63081532049,
+        "connected_solid": true
+      }
+    ],
+    "bin_floor_planes_mm": [
+      -42.099999999999994,
+      -102.0,
+      -44.49999999999999,
+      0.0,
+      2.5,
+      -105.0
+    ],
+    "rear_profile": {
+      "slope_planes": {
+        "inner": {
+          "angle_from_vertical_degrees": 18.0,
+          "start_depth_mm": 42.1,
+          "start_y_mm": 194.75629793278713,
+          "end_depth_mm": 102.0,
+          "end_y_mm": 175.29360812843603,
+          "y_at_common_depth_mm": 185.02495303061158
+        },
+        "outer": {
+          "angle_from_vertical_degrees": 18.0,
+          "start_depth_mm": 44.5,
+          "start_y_mm": 196.5,
+          "end_depth_mm": 105.0,
+          "end_y_mm": 176.84235837790914,
+          "y_at_common_depth_mm": 187.5484623687834
+        }
+      },
+      "normal_wall_thickness_mm": 2.399999999999966,
+      "outside_step_depth_mm": 44.5,
+      "inside_step_depth_mm": 42.1,
+      "rear_step_mm": 3.0,
+      "total_bottom_setback_mm": 22.657641622090864,
+      "bottom_length_mm": 82.34235837790916,
+      "point_checks_passed": 17
+    },
+    "taper_planes": {
+      "1": {
+        "x_under_rail_mm": 73.24999999999996,
+        "x_at_bottom_mm": 71.24999999999996
+      },
+      "-1": {
+        "x_under_rail_mm": -73.24999999999996,
+        "x_at_bottom_mm": -71.24999999999996
+      }
+    },
+    "minimum_rim_land_mm": 2.5,
+    "bin_clearance_to_shallow_bottom_envelope_mm": 1.1445783132530067,
+    "point_checks_passed": 36,
+    "interference_count": 0
+  },
+  "warnings": [
+    "Carrier width 162.5 exceeds original reference 157.0 mm.",
+    "Body width 146.5 exceeds original reference 143.5 mm.",
+    "Bin exceeds centered 130.0 mm deep-width reference by 5.11 mm on the passenger side; outward shift explicitly approved.",
+    "Open-side rim stiffness and print strength require physical testing.",
+    "Front reference floor gap: 17.0 mm; old target: 55.0 mm.",
+    "Rear reference floor gap: 50.0 mm; old target: 55.0 mm.",
+    "Rear relief is 18 degrees from vertical with a 3 mm forward step; this does not establish a measured 3 mm console gap.",
+    "Physical fit, lift-out, and the full 77 mm slide are unverified."
+  ]
+}

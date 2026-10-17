@@ -1,0 +1,67 @@
+{
+  "revision": "1.3.0",
+  "sourceSha256": "ad4fe266e3c240667cce263d63aad974f5d9cb6f6659b6c4f52c72362b6b7f5c",
+  "meshToleranceMm": 0.02,
+  "files": {
+    "Models/assembly-v1.3.0.glb": {
+      "bytes": 73028,
+      "sha256": "52d36929a79acf37137632c60089b7b237e019b25735837f3a9740afc2d7abc6"
+    },
+    "Downloads/Design Brief.md": {
+      "bytes": 1989,
+      "sha256": "f6a88735e5659694d01347f5124e226ee19cf171ed7ca57681dc627ab3517561"
+    },
+    "Data/export-verification.json": {
+      "bytes": 2864,
+      "sha256": "2f42a007f87ad053a6648078a859067e1b9bef0948d893b3f6b34208716ed108"
+    },
+    "Images/assembly.png": {
+      "bytes": 396619,
+      "sha256": "5039b72518c06844f9006884bc3dfc47bb4c38bad12a67d5197f76229fd100d7"
+    },
+    "Data/specification.json": {
+      "bytes": 22747,
+      "sha256": "cfdddd87dc2f8bdcd19bc7c5a29a58303052440023ea83b6993e97e222a22842"
+    },
+    "Data/validation.json": {
+      "bytes": 4018,
+      "sha256": "d6f6df8f12896077aa3a692d88bb80bf6d3cfd9d38ea6e1114ff9b37d59fae71"
+    },
+    "Downloads/assembly-v1.3.0.f3d": {
+      "bytes": 177426,
+      "sha256": "4e69abe5404a1246282fdab7e73c7f260238147d660f9b5dc07efb7331a53ae1"
+    },
+    "Images/bin-rear.png": {
+      "bytes": 247967,
+      "sha256": "0f9fb8ecb741bfae2477091a9ac0d422a8793062eded5cb265f7eafee6abc3ea"
+    },
+    "Downloads/assembly-v1.3.0.step": {
+      "bytes": 103618,
+      "sha256": "455924786317804c77d0ea54e1490d9c4c20b0be3b7e30bbcc50c59b2055d645"
+    },
+    "Images/bin-side.png": {
+      "bytes": 78666,
+      "sha256": "a278c8cd88656c09165b179c0e340ff3137eadd057eadafcd3beb7236e556a06"
+    },
+    "Downloads/bin-v1.3.0.step": {
+      "bytes": 43673,
+      "sha256": "8b96fd8fc3dec078793bc98742cfd9303afd04649c0780a5cf1e386185ce18a4"
+    },
+    "Images/front.png": {
+      "bytes": 34647,
+      "sha256": "ca5650df4888baa33bb64604b44aab1b3d1be118b111620b4dc99cb006ab24c2"
+    },
+    "Downloads/dimension-sheet-v1.3.0.pdf": {
+      "bytes": 347488,
+      "sha256": "d3fa72f98846fc6716c21c0668cf081745657b1767bcd7e3d780e59252d84528"
+    },
+    "Downloads/tray-v1.3.0.step": {
+      "bytes": 57404,
+      "sha256": "8cce5d66e1ad50f78c421a0bb5b120a34afd27f87dbd1ea7884964c4da68b537"
+    },
+    "Downloads/designer-handoff-v1.3.0.zip": {
+      "bytes": 1306353,
+      "sha256": "360ed04780134915eed1e1684675d495bac7ebf3b1c747f75690b4dbb4c50384"
+    }
+  }
+}

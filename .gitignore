@@ -1,0 +1,9 @@
+node_modules/
+Dist/
+Test Results/
+playwright-report/
+.env*
+.DS_Store
+Export Report.json
+
+tsconfig.tsbuildinfo
