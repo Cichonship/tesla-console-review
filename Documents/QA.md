@@ -14,12 +14,20 @@
 
 ## Export Measurements
 
-| Part | Triangles | Material volume |
-| --- | ---: | ---: |
-| Carrier | 1,236 | 190615.223126 mm³ |
-| Bin | 652 | 108378.630815 mm³ |
+| Part    | Triangles |   Material volume |
+| ------- | --------: | ----------------: |
+| Carrier |     1,236 | 190615.223126 mm³ |
+| Bin     |       652 | 108378.630815 mm³ |
 
 Mesh: 72 KB on disk. Requested surface tolerance: 0.02 mm. Package: approximately 1.25 MB, including a four-page PDF and native reference images.
+
+## Public Deployment Verification
+
+- GitHub Actions deployment completed successfully.
+- Live URL: https://cichonship.github.io/tesla-console-review/
+- All 14 WebKit desktop/mobile checks also passed against the public GitHub Pages site.
+- All 15 published assets were fetched over HTTPS and matched their local SHA-256 values and sizes.
+- The public comment panel rendered its GitHub sign-in control. Authenticated posting remains unverified.
 
 ## Not Yet Accepted
 
